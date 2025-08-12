@@ -66,5 +66,7 @@ Proyek ini masih dalam tahap pengembangan dan akan terus mendapatkan pembaruan f
 Proyek ini dibuat secara mandiri oleh Faizal Dananjaya – Full Stack Developer dengan minat besar pada teknologi edukasi berbasis web.
 
 🌐 GitHub: FaizalDananjaya
-
 📧 Email: faizaldnjy1@gmail.com
+
+## Download Aplikasi
+Versi build aplikasi bisa diunduh di sini: [Download via Google Drive][(LINK_DRIVE_KAMU)](https://drive.google.com/drive/folders/18obIHXHsNKGZSPkQO3ZF_nAp4jzTmAwh?usp=sharing)
