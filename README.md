@@ -1,72 +1,77 @@
-# Aplikasi Pembelajaran Keterampilan Baru
+# SkillMaster - Platform Pembelajaran Keterampilan Baru
 
-![Next.js](https://img.shields.io/badge/Next.js-13.4-blue?logo=next.js)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.3-38B2AC?logo=tailwind-css)
-![License](https://img.shields.io/badge/license-MIT-green)
-![Status](https://img.shields.io/badge/status-Development-orange)
+Aplikasi pembelajaran keterampilan baru yang lengkap dengan fitur interaktif, quiz, dan progress tracking.
 
-**Aplikasi Pembelajaran Keterampilan Baru** adalah platform interaktif yang dirancang untuk membantu pengguna mempelajari berbagai keterampilan secara mandiri dan fleksibel.  
-Proyek ini sepenuhnya dikembangkan secara **mandiri (solo project)** menggunakan **Next.js** sebagai framework utama, dengan dukungan berbagai library modern untuk menciptakan pengalaman belajar yang menarik dan responsif.
+## 🚀 Fitur Utama
 
----
+- **Kursus Interaktif** untuk berbagai keterampilan (programming, desain, memasak, fotografi)
+- **Sistem Quiz** dengan penilaian otomatis
+- **Progress Tracking** untuk user
+- **Dashboard Pengguna** dengan statistik
+- **Responsive Design** untuk semua device
+- **Local Storage** untuk menyimpan progress
 
-## ✨ Fitur Utama
-- 📚 **Materi Terstruktur** – Modul pembelajaran terorganisir untuk memudahkan pemahaman.
-- 📝 **Kuis Interaktif** – Menguji pengetahuan setelah mempelajari materi.
-- 📊 **Pelacakan Progres** – Memantau kemajuan belajar secara real-time.
-- 📱 **UI/UX Responsif** – Desain adaptif untuk semua ukuran layar.
-- 🌐 **Multi-Keterampilan** – Mendukung pembelajaran berbagai bidang.
+## 📁 Struktur File
 
----
+```
+├── index.html          # Halaman utama aplikasi
+├── styles.css          # Styling dan responsive design
+├── script.js           # Logika aplikasi dan interaktivitas
+└── README.md          # Dokumentasi aplikasi
+```
 
-## 🛠️ Teknologi yang Digunakan
-- [Next.js](https://nextjs.org/) – Framework React untuk web modern.
-- [React](https://react.dev/) – Library UI berbasis komponen.
-- [Tailwind CSS](https://tailwindcss.com/) – Utility-first CSS framework.
-- [ShadCN/UI](https://ui.shadcn.com/) – Komponen UI modern.
-- [Framer Motion](https://www.framer.com/motion/) – Animasi interaktif.
-- [Supabase](https://supabase.com/) – Backend & autentikasi (opsional).
-- [Axios](https://axios-http.com/) – HTTP client untuk API.
+## 🎯 Cara Menjalankan
 
----
+1. **Buka folder project:**
+   ```
+   c:/xampp/htdocs/Freelancer/file penting/Project/program awal/Aplikasi Pembelajaran Keterampilan Baru/
+   ```
 
-## 📂 Struktur Proyek
-Aplikasi-Pembelajaran-Keterampilan-Baru/
-├── pages/ # Halaman utama & routing
-├── components/ # Komponen UI reusable
-├── styles/ # Styling & konfigurasi Tailwind
-├── public/ # Asset publik (gambar, ikon, dll)
-├── utils/ # Helper dan fungsi utilitas
-└── README.md # Dokumentasi proyek
+2. **Buka file index.html:**
+   - Double-click pada file index.html
+   - Atau buka browser dan ketik: `file:///[path]/index.html`
 
+3. **Atau gunakan live server:**
+   - Jika menggunakan VS Code, install Live Server extension
+   - Klik kanan pada index.html → Open with Live Server
 
----
+## 🎨 Kategori Kursus
 
-## 🚀 Instalasi & Menjalankan Proyek
-1. **Clone repository**
-   ```bash
-   git clone https://github.com/username/Aplikasi-Pembelajaran-Keterampilan-Baru.git
-   cd Aplikasi-Pembelajaran-Keterampilan-Baru
+- **Programming** 💻 - JavaScript, Python, Web Development
+- **Design** 🎨 - UI/UX, Graphic Design, Adobe Creative Suite
+- **Cooking** 👨‍🍳 - Italian Cuisine, Baking, Asian Cooking
+- **Photography** 📸 - Camera Basics, Composition, Photo Editing
 
-Install dependencies
+## 📊 Fitur Dashboard
 
-npm install
-Jalankan server development
+- **Kursus Aktif** - Melihat kursus yang sedang diambil
+- **Skor Total** - Total poin dari quiz yang diselesaikan
+- **Sertifikat** - Jumlah sertifikat yang telah didapatkan
+- **Progress Tracking** - Progress belajar per kursus
 
-npm run dev
-Akses aplikasi
+## 🧪 Sistem Quiz
 
-arduino
-http://localhost:3000
+- Multiple choice questions
+- Penilaian otomatis
+- Feedback langsung
+- Simpan progress di localStorage
 
-📌 Status Proyek
-Proyek ini masih dalam tahap pengembangan dan akan terus mendapatkan pembaruan fitur.
+## 📱 Responsive Design
 
-👨‍💻 Tentang Pengembang
-Proyek ini dibuat secara mandiri oleh Faizal Dananjaya – Full Stack Developer dengan minat besar pada teknologi edukasi berbasis web.
+- Desktop: Layout grid 3 kolom
+- Tablet: Layout grid 2 kolom
+- Mobile: Layout 1 kolom dengan menu hamburger
 
-🌐 GitHub: FaizalDananjaya
-📧 Email: faizaldnjy1@gmail.com
+## 🔄 Data Storage
 
-## Download Aplikasi
-Versi build aplikasi bisa diunduh di sini: [Download via Google Drive][(https://drive.google.com/drive/folders/18obIHXHsNKGZSPkQO3ZF_nAp4jzTmAwh?usp=sharing)]
+- Progress user disimpan di localStorage browser
+- Tidak memerlukan database eksternal
+- Data tersimpan secara lokal di device user
+
+## 🎯 Teknologi yang Digunakan
+
+- **HTML5** untuk struktur
+- **CSS3** untuk styling dan responsive design
+- **JavaScript ES6+** untuk interaktivitas
+- **Font Awesome** untuk icons
+- **Local Storage API** untuk data persistence
