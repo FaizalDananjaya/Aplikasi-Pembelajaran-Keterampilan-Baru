@@ -24,7 +24,7 @@ Aplikasi pembelajaran keterampilan baru yang lengkap dengan fitur interaktif, qu
 
 1. **Buka folder project:**
    ```
-   c:/xampp/htdocs/Freelancer/file penting/Project/program awal/Aplikasi Pembelajaran Keterampilan Baru/
+   difolder yang anda inginkan
    ```
 
 2. **Buka file index.html:**
@@ -75,3 +75,7 @@ Aplikasi pembelajaran keterampilan baru yang lengkap dengan fitur interaktif, qu
 - **JavaScript ES6+** untuk interaktivitas
 - **Font Awesome** untuk icons
 - **Local Storage API** untuk data persistence
+
+## download dan Ekstrak .rar dibawah ini
+
+https://drive.google.com/drive/folders/1lcIrfEL05-lhDJEHTdx4ltrFLs73BV4l?usp=sharing
